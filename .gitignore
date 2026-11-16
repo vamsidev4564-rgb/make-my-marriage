@@ -31,6 +31,19 @@ htmlcov/
 !.env.example
 !.env.*.example
 
+# Local secrets, credentials, and private keys
+secrets/
+credentials/
+*.secret
+*.secrets
+*.credentials
+credentials*.json
+secrets*.json
+*.pem
+*.key
+*.p12
+*.pfx
+
 # IDE and editor state
 .idea/
 .vscode/*
